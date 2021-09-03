@@ -1,11 +1,11 @@
 import React from "react";
-import { View, Text } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
+import { SafeArea } from "../../components/utility/safe-area.component";
+import { Text } from "../../components/typography/text.component";
 
 export default function ShopDetail() {
   return (
-    <SafeAreaView>
+    <SafeArea>
       <Text>shop-detail</Text>
-    </SafeAreaView>
+    </SafeArea>
   );
 }

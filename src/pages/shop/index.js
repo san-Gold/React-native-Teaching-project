@@ -1,6 +1,11 @@
 import React from "react";
-import { View, Text } from "react-native";
+import { SafeArea } from "../../components/utility/safe-area.component";
+import { Text } from "../../components/typography/text.component";
 
 export default function Shop() {
-  return <Text>Shop</Text>;
+  return (
+    <SafeArea>
+      <Text>Shop</Text>
+    </SafeArea>
+  );
 }
