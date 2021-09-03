@@ -25,9 +25,12 @@ App has three screens:
     Here you will be presented with tree data with one level at a time. Each selection will take you further down the tree.
     Once you reach the leaf node you can mark or unmark the leaf node.
 
-        The code will work for any tree structure with any level of depth. Tree can be unbalanced with one branch ending at n while any other branch ending at k : k > n or k< n
+            The code will work for any tree structure with any level of depth. Tree can be unbalanced with one branch ending at n while any other branch ending at k : k > n or k< n
 
- <img src="screenshots/home.PNG" width="300">
- <img src="screenshots/shop.PNG" width="300">
+    项目初始化。集成 redux、路由、tab 等
+
+目前以兼容 ios android
+<img src="screenshots/home.png" width="300">
+<img src="screenshots/shop.png" width="300">
 
 Navigation in the app happens through tab navigation
