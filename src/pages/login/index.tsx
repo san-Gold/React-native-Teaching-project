@@ -4,7 +4,7 @@ import { SafeArea } from "../../components/utility/safe-area.component";
 import { Text } from "../../components/typography/text.component";
 
 export default function Login() {
-  let loginInfo = useSelector((store) => store.loginInfo);
+  let loginInfo = useSelector((store: any) => store.loginInfo);
   return (
     <SafeArea>
       <Text>login</Text>
