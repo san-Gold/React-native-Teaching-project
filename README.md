@@ -27,9 +27,10 @@ App has three screens:
 
             The code will work for any tree structure with any level of depth. Tree can be unbalanced with one branch ending at n while any other branch ending at k : k > n or k< n
 
-    项目初始化。集成 redux、路由、tab，typeScript、react-native-elements-UI 等，目前以兼容 ios android
+    项目初始化。集成 redux、路由、tab，typeScript、react-native-elements-UI,增加网络调试，内嵌 webView 等，目前以兼容 ios android
 
 <img src="screenshots/home.png" width="300">
 <img src="screenshots/shop.png" width="300">
+<img src="screenshots/my.png" width="300">
 
 Navigation in the app happens through tab navigation
