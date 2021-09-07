@@ -1,3 +1,4 @@
+GLOBAL.XMLHttpRequest = GLOBAL.originalXMLHttpRequest || GLOBAL.XMLHttpRequest;
 import { registerRootComponent } from "expo";
 
 import App from "./src/App";
