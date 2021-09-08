@@ -5,6 +5,7 @@ import { View, Text } from "react-native";
 import BottomTabs from "./BottomTabs";
 import Login from "../pages/login/index";
 import ShopDetail from "../pages/shop-detail/index";
+import Order from "../pages/order/index";
 const Stack = createStackNavigator();
 export default function Navigations() {
   return (
@@ -13,6 +14,7 @@ export default function Navigations() {
         <Stack.Screen name="HomeMainTab" component={BottomTabs} />
         <Stack.Screen name="Login" component={Login} />
         <Stack.Screen name="ShopDetail" component={ShopDetail} />
+        <Stack.Screen name="Order" component={Order} />
       </Stack.Navigator>
     </NavigationContainer>
   );
